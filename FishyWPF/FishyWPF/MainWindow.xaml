@@ -1,0 +1,13 @@
+﻿<Window x:Class="FishyWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FishyWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="400" ResizeMode="NoResize" WindowStyle="None" PreviewMouseLeftButtonDown="Window_PreviewMouseLeftButtonDown">
+    <Canvas x:Name="paintSurface">
+        <Canvas.Background>#5691ad</Canvas.Background>
+        <Image Name="FishImage" Source="Pictures/Fish.png" Width="50" Height="35" Canvas.Left="150" Canvas.Top="183"></Image>
+    </Canvas>
+</Window>
