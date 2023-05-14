@@ -9,11 +9,19 @@
 
   <ItemGroup>
     <None Remove="Pictures\Fish.png" />
+    <None Remove="Pictures\FishMain.png" />
+    <None Remove="Pictures\FishMainFlipHor.png" />
     <None Remove="Pictures\Food.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="Pictures\Fish.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pictures\FishMain.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pictures\FishMainFlipHor.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Pictures\Food.png">
